@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>My Personal Website</title>
+<style>
+body {
+margin: 0;
+font-family: 'Segoe UI', sans-serif;
+background-color: #fff;
+color: #333;
+}
+
+header {
+background-color: #111;
+color: #fff;
+padding: 60px 20px;
+text-align: center;
+}
+
+header h1 {
+margin: 0;
+font-size: 3em;
+}
+
+nav {
+background-color: #222;
+display: flex;
+justify-content: center;
+padding: 10px 0;
+}
+
+nav a {
+color: #fff;
+margin: 0 15px;
+text-decoration: none;
+font-weight: bold;
+}
+
+nav a:hover {
+color: #f90;
+}
+
+section {
+padding: 60px 20px;
+max-width: 900px;
+margin: auto;
+}
+
+.portfolio-item, .blog-post {
+border: 1px solid #ddd;
+border-radius: 5px;
+padding: 15px;
+margin-bottom: 20px;
+}
+
+.portfolio-item h3, .blog-post h3 {
+margin-top: 0;
+}
+
+footer {
+text-align: center;
+padding: 30px;
+background-color: #111;
+color: #ccc;
+}
+
+button {
+background-color: #f90;
+color: white;
+padding: 10px 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+
+button:hover {
+background-color: #e07b00;
+}
+</style>
+</head>
+<body>
+
+<header>
+<h1>Hi, I'm [Your Name]</h1>
+<p>Welcome to my personal website!</p>
+</header>
+
+<nav>
+<a href="#portfolio">Portfolio</a>
+<a href="#blog">Blog</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<section id="portfolio">
+<h2>My Portfolio</h2>
+<div class="portfolio-item">
+<h3>Project One</h3>
+<p>A short description of what you built and why it's cool.</p>
+</div>
+<div class="portfolio-item">
+<h3>Project Two</h3>
+<p>Another cool project you worked on. Maybe link to it or show a demo.</p>
+</div>
+</section>
+
+<section id="blog">
+<h2>My Blog</h2>
+<div class="blog-post">
+<h3>How I Built My Website</h3>
+<p>I used HTML, CSS, and JavaScript to create this site. Here’s a bit of what I learned along the way...</p>
+</div>
+<div class="blog-post">
+<h3>Lessons from My First App</h3>
+<p>Building my first app was a challenge, but I came out with some great insights. Let’s dive in.</p>
+</div>
+</section>
+
+<section id="contact">
+<h2>Contact Me</h2>
+<p>Have a project in mind or just want to connect? Drop me a message!</p>
+<button onclick="alert('You clicked the contact button!')">Say Hello</button>
+</section>
+
+<footer>
+<p>&copy; 2025 [Your Name]. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
